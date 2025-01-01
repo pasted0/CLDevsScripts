@@ -25,7 +25,7 @@ local function casfunc(actionName, inputState)
 end
 
 
-notification("Credits", "Made by @Pasted0 on discord (CLD Devs on top)", 5)
+notification("Credits", "Made by @Pasted0 on discord (CLDevs on top)", 5)
 
 cas:BindAction("enableHitboxs", casfunc, true, Enum.KeyCode.H)
 cas:SetTitle("enableHitboxs", "Enable hitboxs!")
