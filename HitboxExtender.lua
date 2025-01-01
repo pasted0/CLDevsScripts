@@ -37,7 +37,6 @@ if v ~= game:FindService("Players").LocalPlayer and v.Character and v.Character:
 if getgenv().hitbox == true then
 v.Character:WaitForChild("HumanoidRootPart").Size = Vector3.new(30,30,30)
 v.Character:WaitForChild("HumanoidRootPart").CanCollide = false
-v.Character:WaitForChild("HumanoidRootPart").Transparency = 0
 else
 v.Character:WaitForChild("HumanoidRootPart").Size = Vector3.new(1,2,1)
 end
