@@ -29,7 +29,7 @@ notification("Credits", "Made by @Pasted0 on discord (CLDevs on top)", 5)
 
 cas:BindAction("enableHitboxs", casfunc, true, Enum.KeyCode.H)
 cas:SetTitle("enableHitboxs", "Enable hitboxs!")
-While task.wait() do
+while task.wait() do
 repeat
 task.wait()
 for _,v in game.Players:GetPlayers() do
